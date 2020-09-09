@@ -5,17 +5,16 @@ logo_and_title:
   favicon: "/uploads/summitrealty.png"
 home_slideshow:
   slideshow:
-  - heading: Wallstreet Realty
+  - heading: Karina Crisp
     image: "/uploads/splash4.jpg"
-    link_text: Find your dream home
-    link: http://www.idxhome.com/homesearch/133408
+    link_text: ''
+    link: ''
     subtitle: ''
-    hero_body: Our philosophy is different than that of a franchised real estate company
-      because we realize each property is unique.
+    hero_body: ''
 banner:
   image: "/uploads/whiteinterior.jpg"
 footer:
-  footer_logo: "/uploads/wallstlogo1.png"
+  footer_logo: "/uploads/summitrealty.png"
   footer_bio: We take pride in providing our clients with exceptional service and
     competitive rates in a no pressure environment. Our agents are selected for their
     attentiveness to clients, their knowledge of the communities we service, and their
