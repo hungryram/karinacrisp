@@ -5,8 +5,13 @@ logo_and_title:
   favicon: "/uploads/summitrealty.png"
 home_slideshow:
   slideshow:
+<<<<<<< HEAD
   - heading: Karina Crisp Summit Realty
     image: "/uploads/splash4.jpg"
+=======
+  - heading: Karina Crisp Summy Realty
+    image: "/uploads/livingroom.jpg"
+>>>>>>> b84649ddf2831befe7367002fc9588d7ac64dd03
     link_text: ''
     link: ''
     subtitle: ''
