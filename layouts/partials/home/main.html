@@ -9,10 +9,10 @@
 
   <!-- Hero content: will be in the middle -->
   <div class="hero-body slide-content">
-    <div class="container has-text-left">
+    <div class="container has-text-centered">
       <div class="columns">
-        <div class="column is-half has-text-white">
-          <h1 class="title is-1 has-text-white is-size-3-mobile">{{ .heading }}</h1>
+        <div class="column is-three-fifths has-text-white is-offset-one-fifth">
+          <h1 class="title is-1 has-text-white is-size-3-mobile hero-heading">{{ .heading }}</h1>
           {{ if .link }}<a href="{{ .link }}" class="hero-button is-size-7-mobile">{{ .link_text }}</a>{{ end }}
           <p class="mt-6 is-size-7-mobile">{{ .hero_body }}</p>
         </div>
@@ -21,16 +21,37 @@
   </div>
 
   <!-- Hero footer: will stick at the bottom -->
-  <div class="section hero-foot">
-    <div class="container">
-      <div class="columns has-text-left has-text-white is-mobile is-vcentered">
-        <div class="column quicksearch">
-          <script type="text/javascript" src="https://www.idxhome.com/site/listing/search/widget/133408?style=horizontal"></script>
-          <p>Or use our <a href="http://www.idxhome.com/listing/search/advanced/133408">advanced search feature</a></p>
+<div class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-centered" style="position:relative">
+        <h4 class="title is-6 hero-footer-title has-text-white"><span>Collections</span></h4>
+      </div>
+    </div>
+    <nav class="level">
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="title is-4 has-text-white">Search Homes</p>
         </div>
       </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="title is-4 has-text-white">Featured</p>
+        </div>
       </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="title is-4 has-text-white">Top Picks</p>
+        </div>
       </div>
+      <div class="level-item has-text-centered">
+        <div>
+          <p class="title is-4 has-text-white">Registration</p>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
 
 </section>
 {{ end }}

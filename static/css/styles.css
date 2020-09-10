@@ -96,11 +96,11 @@ textarea.textarea::placeholder {
     padding-bottom: 0;
 }
 
-/* div.hero-body {
-    display: flex;
-    align-items: center;
-    height: inherit;
-} */
+h1.title.hero-heading {
+    font-family: 'Stalemate', cursive;
+    font-size: 6rem;
+    font-style: italic;
+}
 
 a.hero-button {
     color: #fff;
@@ -132,18 +132,32 @@ a.hero-button:hover:before {
     transition: width .2s ease;
 }
 
-/* .home-slide.slick-initialized.slick-slider,
-.listing-carousel.slick-initialized.slick-slider {
-    margin-top: -64px;
-} */
+h4.hero-footer-title span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
-/* div.hero-foot {
+h4.hero-footer-title span:before {
+    content: "";
     position: absolute;
-    right: 0;
-    bottom: 10px;
-    z-index: 100;
+    width: 30%;
+    height: 1px;
+    background: white;
     left: 0;
-} */
+    opacity: .2;
+}
+
+h4.hero-footer-title span:after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background: white;
+    right: 0;
+    opacity: .2;
+}
 
 section.hero.slick-slide {
     display: flex;
@@ -225,15 +239,16 @@ nav.navbar {
 
 a.navbar-item img {
     max-height: none;
-    width: 150px;
+    width: 60px;
 }
 
 a.navbar-item,
 a.navbar-link {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-family: 'Fjalla One', sans-serif;
     transition: color .3s ease;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 a.navbar-link:not(.is-arrowless)::after {
