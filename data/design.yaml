@@ -7,10 +7,14 @@ home_slideshow:
   slideshow:
   - heading: Karina Crisp Summit Realty
     image: "/uploads/livingroom.jpg"
-    link_text: ''
-    link: ''
+    link_text: View Featured Homes
+    link: "/"
     subtitle: ''
-    hero_body: ''
+    hero_body: |-
+      Our process applies techniques from a
+      variety of disciplines, values distinction in
+      detail and gives careful consideration to the
+      unique needs and qualities of each client.
 banner:
   image: "/uploads/whiteinterior.jpg"
 footer:
