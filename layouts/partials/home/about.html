@@ -1,30 +1,35 @@
 {{ $bio := .Site.Data.home.agent_bio }}
-<div class="about-container" style="background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(uploads/background3.jpg) no-repeat center;background-size:cover;padding-top:5%;padding-bottom:5%;">
+<div class="about-container" style="background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.2)),url(uploads/about-bg.jpg) no-repeat center;background-size:cover;padding-top:5%;padding-bottom: 5%;">
 <div class="section">
     <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column has-text-centered">
-                {{ if $bio.photo }}
-                <img src="{{ $bio.photo }}" alt="" class="about-home-image">
-                {{ end }}
-            </div>
+        <div class="columns is-vcentered is-variable is-8">
             <div class="column">
                 <div class="content">
                     {{ if $bio.heading }}
-                        <h1 class="title is-1 is-size-3-mobile has-text-white is-uppercase">{{ $bio.heading }}</h1>
+                        <h1 class="title is-1 is-size-3-mobile has-text-black page-title has-text-weight-normal">Finding you the best homes in <span>Greater Knoxville</span></h1>
                     {{ end }}
-                    {{ if $bio.heading }}
-                        <p class="has-text-white is-size-5 mb-6">{{ $bio.subtitle }}</p>
-                    {{ end }}
-                    {{ if $bio.body_text }}
-                    <p style="color: #ccc">{{ $bio.body_text }}</p>
-                    {{ end }}
-                    {{ if $bio.link }}
-                        <a href="{{ $bio.link }}" class="about-btn">{{ $bio.link_text }}</a>
-                    {{ end }}
+                    <div class="columns">
+                        <div class="column is-2">
+                            <div class="line mt-4"></div>
+                        </div>
+                        <div class="column">
+                            {{ if $bio.body_text }}
+                            <p class="has-text-black">{{ $bio.body_text }}</p>
+                            {{ end }}
+                                <p class="has-text-black is-size-5 mb-6">Let's get started on finding your dream home</p>
+        
+                            {{ if $bio.link }}
+                                <a href="{{ $bio.link }}" class="about-btn">{{ $bio.link_text }}</a>
+                            {{ end }}
+                        </div>
+                    </div>
                 </div>
             </div>
-
+            <div class="column has-text-centered">
+                {{ if $bio.photo }}
+                <img src="{{ $bio.photo }}" alt="" class="about-home-image" width="400">
+                {{ end }}
+            </div>
         </div>
     </div>
 </div>

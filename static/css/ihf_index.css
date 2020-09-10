@@ -1,5 +1,14 @@
 /* IDX HOME SCROLL */
 
+#ihf-main-container > div > div:nth-child(1) > div {
+    position: absolute;
+    bottom: 0;
+}
+
+.row.gallery-prop-info {
+    display: none;
+}
+
 div#ihf-main-container .thumbnail {
     border: none;
     background-color: transparent;
