@@ -1,12 +1,21 @@
 /* IDX HOME SCROLL */
 
+div#ihf-main-container .pagination>li>a, #ihf-main-container .pagination>li>span {
+    border: 0;
+}
+
+
 #ihf-main-container > div > div:nth-child(1) > div {
     position: absolute;
-    bottom: 0;
+    bottom: -65px;
 }
 
 .row.gallery-prop-info {
     display: none;
+}
+
+img.ihf-slider-img {
+    max-height: 250px!important;
 }
 
 div#ihf-main-container .thumbnail {
@@ -27,7 +36,7 @@ div.col-xs-12.address.gallery-address{
 }
 
 div#ihf-main-container a {
-    color: #000;
+    color: #fff;
     font-size: 1rem;
     text-transform: capitalize;
 
