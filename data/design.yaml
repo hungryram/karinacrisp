@@ -5,11 +5,11 @@ logo_and_title:
   favicon: "/uploads/summitrealty.png"
 home_slideshow:
   slideshow:
-  - heading: Karina Crisp Summit Realty
-    image: "/uploads/livingroom.jpg"
+  - heading: Summit Realty
+    image: "/uploads/shutterstock_1259517064.jpg"
     link_text: View Featured Homes
     link: "/"
-    subtitle: ''
+    subtitle: Karina Crisp
     hero_body: |-
       Our process applies techniques from a
       variety of disciplines, values distinction in
