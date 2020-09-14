@@ -12,23 +12,23 @@ parent = "Buyers & Sellers"
 url = "https://karinacrisp.idxhome.com/mortcalc/147919"
 weight = 2
 [[menu.main]]
-name = "Property Organizer"
-parent = "Buyers & Sellers"
-url = "https://karinacrisp.idxhome.com/organizer/login/147919"
-weight = 1
-[[menu.main]]
 name = "Search"
 parent = "Property Search"
 url = "https://karinacrisp.idxhome.com/homesearch/147919"
 weight = 1
 [[menu.main]]
-name = "Featured Listings"
-url = "https://karinacrisp.idxhome.com/featured/147919"
-weight = 2
+name = "Property Organizer"
+parent = "Buyers & Sellers"
+url = "https://karinacrisp.idxhome.com/organizer/login/147919"
+weight = 1
 [[menu.main]]
 name = "Contact"
 url = "/contact"
 weight = 5
+[[menu.main]]
+name = "Featured Listings"
+url = "https://karinacrisp.idxhome.com/featured/147919"
+weight = 2
 [[menu.main]]
 name = "Buyers & Sellers"
 weight = 4
