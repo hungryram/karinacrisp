@@ -306,7 +306,8 @@ a.navbar-link:hover {
         color: black;
     }
     div.navbar-dropdown {
-        border-top: 2px solid #b83c30;
+        border-top: 2px solid #D2B067;
+        border-radius: 0;
     }
 }
 
