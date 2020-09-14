@@ -6,11 +6,19 @@ agent_bio:
   photo: "/uploads/karinacrisp.JPG"
   heading: Connecting you to the best homes in Greater Knoxville
   subtitle: ''
-  link: "/about"
-  body_text: Our process applies techniques from a variety of disciplines, values
-    distinction in detail and gives careful consideration to the unique needs and
-    qualities of each client.
-  link_text: View Featured Properties
+  link: "/contact"
+  body_text: "Karina has been an active member of the Knoxville community for over
+    six years, and is so excited to be developing that love for her community into
+    a focus on East Tennessee’s real estate. As a graduate of Arizona State University
+    and business owner for over 10 years, Karina not only understands the importance
+    of client-centric service, she has a passion for it. \n\nA proud member of the
+    Summit Realty family, Karina is ready to help with all of your home buying, selling,
+    and investment needs. Summit carries the values of integrity, hard work, and true
+    luxury service for all.\n\nWhen Karina isn’t making home ownership dreams come
+    true for her clients, you can find her in her kitchen baking sourdough bread or
+    hiking through the Smoky Mountains. Karina lives in West Knoxville with her husband
+    Gabe, an East Tennessee native. "
+  link_text: Contact me
 featured_listing:
   subtitle: Exlusive Homes
   heading: Luxury Homes in Los Angeles
