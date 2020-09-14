@@ -14,7 +14,7 @@
                         </div>
                         <div class="column">
                             {{ if $bio.body_text }}
-                            <p class="has-text-black">{{ $bio.body_text }}</p>
+                            <p class="has-text-black">{{ $bio.body_text | markdownify }}</p>
                             {{ end }}
                                 <p class="has-text-black is-size-5 mb-6">Let's get started on finding your dream home</p>
         
