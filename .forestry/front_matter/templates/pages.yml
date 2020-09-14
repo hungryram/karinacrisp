@@ -13,5 +13,4 @@ fields:
   template: seo
   label: SEO
 pages:
-- content/about.md
 - content/accessibility.md
