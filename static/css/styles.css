@@ -114,7 +114,13 @@ button.button {
     width: 100%;
     border-radius: 0;
     border: 0;
+    transition: all .3s ease;
     color: #fff;
+}
+
+button.button:hover {
+    background: #D2B067;
+    transition: all .3s ease;
 }
 
 input.input::placeholder,
