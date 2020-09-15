@@ -19,8 +19,8 @@
                     <h1 class="title is-3 has-text-white">Our <span>Information</span></h1>
                     {{ if $contact.mobile_phone }}
                     <div class="columns mb-0 is-vcentered">
-                      <div class="column">
-                          <h6 class="title is-6 has-text-white">Cell</h6>
+                      <div class="column py-0">
+                          <h6 class="title is-6 has-text-white">Direct</h6>
                       </div>
                       <div class="column has-text-left">
                         <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a>
@@ -28,8 +28,8 @@
                     </div>
                     {{ end }}
                     {{ if $contact.phone }}
-                    <div class="columns mb-0">
-                      <div class="column">
+                    <div class="columns mb-0 is-vcentered">
+                      <div class="column py-0">
                           <h6 class="title is-6 has-text-white">Office</h6>
                       </div>
                       <div class="column has-text-left">
@@ -39,7 +39,7 @@
                     {{ end }}
                     {{ if $contact.email }}
                     <div class="columns mb-0 is-vcentered">
-                      <div class="column">
+                      <div class="column py-0">
                           <h6 class="title is-6 has-text-white">Email</h6>
                       </div>
                       <div class="column has-text-left">
