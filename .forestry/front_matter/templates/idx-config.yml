@@ -2,6 +2,9 @@
 label: IDX Config
 hide_body: true
 fields:
+- name: enable_idx
+  type: boolean
+  label: Enable IDX
 - name: ihomefinder_client_id
   type: number
   label: Ihomefinder Client ID
