@@ -91,7 +91,38 @@
       </div>
       <div class="column">
         <div class="box pt-6 pb-6 pl-6 pr-6">
-          <form name="Home Form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          {{ if .Site.Data.idx.enable_idx }}
+          <form id="ihf-contact-request-form" data-ihf-event="contact-form-submit" action="http://{{ .Site.Data.idx.subdomain }}.idxhome.com/contact/{{ .Site.Data.idx.ihomefinder_client_id }}" method="POST" data-ihf-event-bound="true">
+            <div class="field is-horizontal">
+              <div class="field-body">
+                <div class="field">
+                  <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="Name" name="name">
+                  </p>
+                </div>
+                <div class="field">
+                  <p class="control">
+                    <input class="input" type="text" placeholder="Email" name="email">
+                  </p>
+                </div>
+                <div class="field">
+                  <p class="control">
+                    <input class="input" type="text" placeholder="Phone" name="phone">
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                  <textarea id="message" placeholder="Message" name="message" class="textarea" style="height: 140px;" rows="3"> </textarea>
+              </div>
+            </div>
+            <div class="control">
+              <button class="button">Submit</button>
+            </div>
+          </form>
+          {{ else }}
+          <form name="contact page form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-page mt-6">
             <input name="bot-field" type="hidden"/>
             <div class="field is-horizontal">
               <div class="field-body">
@@ -105,6 +136,12 @@
                     <input class="input" type="text" placeholder="Last Name" name="last name">
                   </p>
                 </div>
+              </div>
+            </div>
+            
+            <div class="field">
+              <div class="control">
+                <input class="input" type="text" placeholder="Phone" name="phone">
               </div>
             </div>
   
@@ -122,6 +159,7 @@
               <button class="button">Submit</button>
             </div>
           </form>
+          {{ end }}
         </div>
       </div>
     </div>

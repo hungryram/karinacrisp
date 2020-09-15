@@ -62,6 +62,20 @@ div.content.single-content p {
     font-weight: 300;
 }
 
+.field-label label.label {
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+p.control {
+    font-size: 14px;
+}
+
+select.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #000;
+}
+
 body h1.title,
 body h2.title,
 body h3.title,
@@ -92,7 +106,7 @@ input.input,
 textarea.textarea {
     background: transparent;
     border-radius: 0;
-    color: #fff;
+    color: #ccc;
 }
 
 button.button {
@@ -105,7 +119,7 @@ button.button {
 
 input.input::placeholder,
 textarea.textarea::placeholder {
-    color: #ccc;
+    color: rgb(118, 118, 118);
     font-size: 14px;
 }
 
@@ -639,7 +653,7 @@ li.active a {
 
 form.contact-page input::placeholder,
 form.contact-page textarea.textarea::placeholder {
-    color: #ccc;
+    color: #000;
 }
 
 .contact-box a {
