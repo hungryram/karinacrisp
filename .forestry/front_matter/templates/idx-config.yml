@@ -15,5 +15,10 @@ fields:
     min: 
     max: 
     step: 
+- name: subdomain
+  type: text
+  config:
+    required: false
+  label: Subdomain
 pages:
 - data/idx.yaml
