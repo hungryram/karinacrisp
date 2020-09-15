@@ -8,4 +8,4 @@ parent = "Buyers & Sellers"
 weight = 3
 
 +++
-<script type="text/javascript" src="http://www.idxhome.com/site/contact/valuation/widget/147919"></script>
+<script type="text/javascript" src="[http://www.idxhome.com/site/contact/valuation/widget/147919](http://www.idxhome.com/site/contact/valuation/widget/147919 "http://www.idxhome.com/site/contact/valuation/widget/147919")"></script>
