@@ -1,3 +1,8 @@
+@font-face {
+    font-family: future;
+    src: url(/fonts/Future-Shock.ttf);
+  }
+
 html {
     scroll-behavior: smooth;
     -webkit-scroll-behavior: smooth;
@@ -147,8 +152,7 @@ textarea.textarea::placeholder {
 }
 
 h1.title.hero-heading {
-    font-family: 'Mr De Haviland', cursive;
-
+    font-family: future;
     font-size: 8rem;
 }
 
