@@ -5,6 +5,12 @@ logo_and_title:
   favicon: "/uploads/summitrealty.png"
 home_slideshow:
   slideshow:
+  - subtitle: ''
+    heading: ''
+    hero_body: ''
+    image: "/uploads/karinacrisp2.jpg"
+    link_text: ''
+    link: ''
   - heading: Summit Realty
     image: "/uploads/farmhousekitchen.jpg"
     link_text: View Featured Homes
