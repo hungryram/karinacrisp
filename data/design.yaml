@@ -5,8 +5,8 @@ logo_and_title:
   favicon: "/uploads/summitrealty.png"
 home_slideshow:
   slideshow:
-  - subtitle: ''
-    heading: ''
+  - subtitle: Find your dream home
+    heading: Karina Crisp
     hero_body: ''
     image: "/uploads/karinacrisp2.jpg"
     link_text: ''
@@ -16,11 +16,7 @@ home_slideshow:
     link_text: View Featured Homes
     link: "/"
     subtitle: Karina Crisp
-    hero_body: |-
-      Our process applies techniques from a
-      variety of disciplines, values distinction in
-      detail and gives careful consideration to the
-      unique needs and qualities of each client.
+    hero_body: ''
 banner:
   image: "/uploads/contactpage.jpg"
 footer:
