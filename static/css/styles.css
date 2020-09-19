@@ -3,6 +3,12 @@
     src: url(/fonts/Future-Shock.ttf);
   }
 
+  @media screen and (max-width: 768px){
+  .hero-heading.is-size-1-mobile {
+      font-size: 5rem!important;
+  }
+}
+
 html {
     scroll-behavior: smooth;
     -webkit-scroll-behavior: smooth;
