@@ -11,6 +11,18 @@ home_slideshow:
     link: "/"
     subtitle: Karina Crisp
     hero_body: ''
+  - subtitle: Karina Crisp
+    heading: Summit Realty
+    hero_body: ''
+    image: "/uploads/modernfarmhouse.jpg"
+    link_text: ''
+    link: ''
+  - subtitle: Karina Crisp
+    heading: Summit Realty
+    hero_body: ''
+    image: "/uploads/bathroomfarmhouse.jpg"
+    link_text: ''
+    link: ''
 banner:
   image: "/uploads/contactpage.jpg"
 footer:
