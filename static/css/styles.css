@@ -511,6 +511,13 @@ div.line {
     height: 1px;
 }
 
+@media screen and (max-width:768px){
+    div.about-media {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 a.about-btn {
     position: relative;
     padding-bottom: 10px;
