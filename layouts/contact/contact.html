@@ -14,36 +14,50 @@
     <div class="section" id="email">
         <div class="container">
             <div class="columns is-variable is-8 is-vcentered">
-                <div class="column is-4">
+                <div class="column is-5">
                   <div class="contact-box page-title">
                     <h1 class="title is-3 has-text-white">Our <span>Information</span></h1>
                     {{ if $contact.mobile_phone }}
-                    <div class="columns mb-0 is-vcentered">
-                      <div class="column py-0">
+                    <div class="level is-mobile">
+                      <div class="level-left">
+                        <div class="level-item">
                           <h6 class="title is-6 has-text-white">Direct</h6>
+                        </div>
                       </div>
-                      <div class="column has-text-left">
+                      <div class="level-right">
+                        <div class="level-item">
                         <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a>
+                        </div>
                       </div>
                     </div>
                     {{ end }}
+
                     {{ if $contact.phone }}
-                    <div class="columns mb-0 is-vcentered">
-                      <div class="column py-0">
-                          <h6 class="title is-6 has-text-white">Office</h6>
+                    <div class="level is-mobile">
+                      <div class="level-left">
+                        <div class="level-item">
+                          <h6 class="title is-6 has-text-white">Phone</h6>
+                        </div>
                       </div>
-                      <div class="column has-text-left">
+                      <div class="level-right">
+                        <div class="level-item">
                         <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a>
+                        </div>
                       </div>
                     </div>
                     {{ end }}
+
                     {{ if $contact.email }}
-                    <div class="columns mb-0 is-vcentered">
-                      <div class="column py-0">
+                    <div class="level is-mobile">
+                      <div class="level-left">
+                        <div class="level-item">
                           <h6 class="title is-6 has-text-white">Email</h6>
+                        </div>
                       </div>
-                      <div class="column has-text-left">
-                        <a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a>
+                      <div class="level-right">
+                        <div class="level-item">
+                        <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.email }}</a>
+                        </div>
                       </div>
                     </div>
                     {{ end }}
