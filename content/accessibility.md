@@ -1,7 +1,7 @@
 +++
-meta_description = "wallstreetrealty.com strives to ensure that its services are accessible to people with disabilities. wallstreetrealty.com has invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities"
+meta_description = "Karinacrisp.com strives to ensure that its services are accessible to people with disabilities. Karinacrisp.com has invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities"
 title = "Accessibility"
-title_tag = "Accessibility - Wallstreet Realty"
+title_tag = "Accessibility - Karina Crisp Summit Realty"
 
 +++
 # Accessibility
