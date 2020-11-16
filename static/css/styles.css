@@ -1,6 +1,6 @@
 @font-face {
     font-family: future;
-    src: url(/fonts/Future-Shock.ttf);
+    src: url("/fonts/Future-Shock.ttf");
   }
 
   @media screen and (max-width: 768px){
