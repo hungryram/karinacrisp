@@ -99,17 +99,17 @@
               <div class="field-body">
                 <div class="field">
                   <p class="control is-expanded">
-                    <input class="input" type="text" placeholder="Name" name="name">
+                    <input class="input" type="text" placeholder="Name" name="contactName" required>
                   </p>
                 </div>
                 <div class="field">
                   <p class="control">
-                    <input class="input" type="text" placeholder="Email" name="email">
+                    <input class="input" type="text" placeholder="Email" name="email" required>
                   </p>
                 </div>
                 <div class="field">
                   <p class="control">
-                    <input class="input" type="text" placeholder="Phone" name="phone">
+                    <input class="input" type="text" placeholder="Phone" name="phone" required>
                   </p>
                 </div>
               </div>
@@ -121,6 +121,14 @@
             </div>
             <div class="control">
               <button class="button">Submit</button>
+            </div>
+            <div class="field mt-5">
+              <div class="control content">
+                <label class="checkbox">
+                  <input type="checkbox" required name="consent">
+                  <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                </label>
+              </div>
             </div>
           </form>
           {{ else }}
