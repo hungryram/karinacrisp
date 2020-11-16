@@ -4,17 +4,17 @@ summaryLength = 30
 [[menu.main]]
 name = "Home Value Request"
 parent = "Buyers & Sellers"
-url = "https://karinacrisp.netlify.app/home-value-request/"
+url = "https://karinacrisp.com/home-value-request/"
 weight = 3
-[[menu.main]]
-name = "Advanced Search"
-parent = "Property Search"
-url = "https://karinacrisp.idxhome.com/listing/search/advanced/147919/306?location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
-weight = 2
 [[menu.main]]
 name = "Mortgage Calculator"
 parent = "Buyers & Sellers"
 url = "https://karinacrisp.idxhome.com/mortcalc/147919"
+weight = 2
+[[menu.main]]
+name = "Advanced Search"
+parent = "Property Search"
+url = "https://karinacrisp.idxhome.com/listing/search/advanced/147919/306?location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
 weight = 2
 [[menu.main]]
 name = "Search"
