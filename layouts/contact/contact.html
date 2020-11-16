@@ -17,6 +17,7 @@
                 <div class="column is-5">
                   <div class="contact-box page-title">
                     <h1 class="title is-3 has-text-white">Our <span>Information</span></h1>
+                    
                     {{ if $contact.mobile_phone }}
                     <div class="level is-mobile">
                       <div class="level-left">
@@ -153,6 +154,14 @@
                     <div class="control">
                       <button class="button">Submit</button>
                     </div>
+                    <div class="field mt-5">
+                      <div class="control content">
+                        <label class="checkbox">
+                          <input type="checkbox" required name="consent">
+                          <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                        </label>
+                      </div>
+                    </div>
                   </form>
                   {{ else }}
                   <form name="contact page form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-page mt-6">
@@ -190,6 +199,14 @@
                     </div>
                     <div class="control">
                       <button class="button">Submit</button>
+                    </div>
+                    <div class="field mt-5">
+                      <div class="control content">
+                        <label class="checkbox">
+                          <input type="checkbox" required name="consent">
+                          <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                        </label>
+                      </div>
                     </div>
                   </form>
                   {{ end }}

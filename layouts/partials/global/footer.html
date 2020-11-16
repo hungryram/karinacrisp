@@ -107,6 +107,14 @@
             <div class="control">
               <button class="button">Submit</button>
             </div>
+            <div class="field mt-5">
+              <div class="control content">
+                <label class="checkbox">
+                  <input type="checkbox" required name="consent">
+                  <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                </label>
+              </div>
+            </div>
           </form>
           {{ else }}
           <h1 class="title is-4 page-title">Contact <span>{{ .Site.Data.profile.primary_contact.full_name }}</span></h1>
@@ -146,6 +154,14 @@
             <div class="control">
               <button class="button">Submit</button>
             </div>
+            <div class="field mt-5">
+              <div class="control content">
+                <label class="checkbox">
+                  <input type="checkbox" required name="consent">
+                  <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                </label>
+              </div>
+            </div>
           </form>
           {{ end }}
         </div>
@@ -162,7 +178,9 @@
       </div>
       <div class="column has-text-centered-mobile has-text-right-desktop">
         <ul>
-          <li class="is-inline-block mr-4 is-size-7"><a href="/accessibility">Accessibility</a></li>
+          {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+          <li class="is-inline"><a href="{{ .Permalink }}" class="is-size-7 mx-2">{{ .Title }}</a></li>
+          {{ end }}
         </ul>
       </div>
   </div>

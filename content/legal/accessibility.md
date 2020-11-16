@@ -1,7 +1,8 @@
 +++
-meta_description = "Karinacrisp.com strives to ensure that its services are accessible to people with disabilities. Karinacrisp.com has invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities"
+last_update = "November 12, 2020"
+meta_description = ""
 title = "Accessibility"
-title_tag = "Accessibility - Karina Crisp Summit Realty"
+title_tag = ""
 
 +++
 www.karinacrisp.com Accessibility Statement
