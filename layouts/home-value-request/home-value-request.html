@@ -9,8 +9,8 @@
         </div>
         <div class="columns">
             <div class="column is-three-fifths is-offset-one-fifth">
-                <form action="https://karinacrisp.idxhome.com/valuation/{{ .Site.Data.idx.ihomefinder_client_id }}" class="form-horizontal" data-ihf-event="valuation-request-form-submit" data-ihf-event-bound="true" id="ihf-valuation-request-form" method="post" name="ihf-valuation-request-form">
-
+                 <form name="Home Valuation Form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you" id="netlify-home-valuation">
+                <input name="bot-field" type="hidden"/>
                     <div class="field is-horizontal">
                         <div class="field-label is-normal">
                           <label class="label">Name</label>
@@ -18,7 +18,7 @@
                         <div class="field-body">
                           <div class="field">
                             <p class="control">
-                              <input class="input" type="text" placeholder="Required" required name="name">
+                              <input class="input" type="text" placeholder="Required" required name="contactName" aria-label="Name">
                             </p>
                           </div>
                         </div>
@@ -260,14 +260,23 @@
                           </div>
                         </div>
                       </div>
-                      <div class="field mt-5">
-                        <div class="control content">
-                          <label class="checkbox">
-                            <input type="checkbox" required>
-                            <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
-                          </label>
+
+                      <div class="field is-horizontal">
+                        <div class="field-label">
+                          <!-- Left empty for spacing -->
+                        </div>
+                        <div class="field-body">
+                          <div class="field mt-5">
+                            <div class="control">
+                              <label class="checkbox">
+                                <input type="checkbox" required>
+                                <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                              </label>
+                            </div>
+                          </div>
                         </div>
                       </div>
+                      
                   </form>
             </div>
         </div>
