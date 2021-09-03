@@ -1,6 +1,7 @@
 baseURL = "https://www.karinacrisp.com/"
 languageCode = "en-us"
 summaryLength = 30
+disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
 name = "Home Value Request"
 parent = "Buyers & Sellers"
