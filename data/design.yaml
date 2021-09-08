@@ -2,7 +2,7 @@
 logo_and_title:
   logo: "/uploads/exprealty-logo-thrive-group.png"
   site_title: The Thrive Group / Brokered by eXp Realty, LLC
-  favicon: ''
+  favicon: "/uploads/favicon-exp.png"
 home_slideshow:
   slideshow:
   - heading: Summit Realty
