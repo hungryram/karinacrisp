@@ -299,7 +299,16 @@ nav.navbar {
 
 a.navbar-item img {
     max-height: none;
-    width: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    a.navbar-item img {
+        width: 180px;
+    }
+
+    div.navbar-brand, .navbar-tabs {
+        align-items: center;
+    }
 }
 
 a.navbar-item,
