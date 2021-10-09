@@ -29,7 +29,6 @@ body .uk-heading-medium,
 body .uk-heading-small, 
 body .uk-heading-xlarge {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
 }
 
 body {
@@ -237,7 +236,7 @@ div.uk-modal-dialog {
 /* HERO */
 
 div.uk-overlay-hero {
-    background:rgb(9 10 21 / 20%);
+    background:rgb(9 10 21 / 50%);
 }
 
 div.hero-text p {
@@ -245,7 +244,8 @@ div.hero-text p {
 }
 
 div.hero-text h1 {
-    font-size: 3.5rem;
+    font-size: 8rem;
+    font-family: future;
 }
 
 div.hero-text li {
