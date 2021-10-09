@@ -1,69 +1,56 @@
-{{ $navbar := .Site.Data.design.logo_and_title }}
+{{ $navbar := .Site.Data.appearance.branding }}
 {{ $navColor := .Site.Data.appearance.header }}
 {{ $navContact := .Site.Data.profile.contact_information }}
 {{ $headerSocial := .Site.Data.profile.social_media }}
-<style>
-    nav.uk-navbar-sticky ul li a,
-    .uk-navbar-sticky ul li a svg {
-        color: #000!important;
-    }
-</style>
 <div class="uk-visible@m">
 	<div class="uk-sticky">
 		<div class="uk-navbar-container uk-navbar-transparent">
-			<div class="uk-container uk-container-xlarge">
+			<div class="uk-container uk-container-expand">
 				<nav class="uk-navbar">
 					<div class="uk-navbar-left">
-						<a class="uk-logo" href="{{ .Site.BaseURL }}">
-                            <img src="{{ $navbar.logo }}" alt="{{ .Site.Data.profile.primary_company_name }}" width="200">
+						<a class="uk-navbar-item uk-logo" href="{{ .Site.BaseURL }}">                        
+                            <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="200" class="white-logo">
                         </a>
 					</div>
 					<div class="uk-navbar-right">
-						<div class="uk-navbar-item">
-                            <ul class="uk-navbar-nav uk-white">
-                                {{ $currentPage := . }}
-                                {{ range .Site.Menus.main }}
-                                {{ if .HasChildren }}
-                                <li>
-                                    <a href="#">{{ .Name }}<span class="uk-margin-small-left" uk-icon="chevron-down"></span></a>
-                                    <div class="uk-navbar-dropdown">
-                                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                                            {{ range .Children }}
-                                            <li class="uk-active"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-                                            {{ end }}
-                                        </ul>
-                                    </div>
-                                </li>
-                                {{ else }}
-                                <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-                                {{ end }}
-                                {{ end }}
-                                </ul>
-						</div>
+                        <ul class="uk-navbar-nav">
+                            {{ $currentPage := . }}
+                            {{ range .Site.Menus.main }}
+                            {{ if .HasChildren }}
+                            <li>
+                                <a href="#">{{ .Name }}<span class="uk-margin-small-left" uk-icon="chevron-down"></span></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        {{ range .Children }}
+                                        <li class="uk-active"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                            </li>
+                            {{ else }}
+                            <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                            {{ end }}
+                            </ul>
 					</div>
 				</nav>
 			</div>
 		</div>
 	</div>
-	<div class="uk-sticky-placeholder" hidden="" style="height: 80px; margin: 0px;"></div>
 </div>
 
 
-
-
-
-
 <!-- mobile -->
-<div uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; cls-inactive: top: 400">
-    <nav class="uk-navbar uk-navbar-container uk-hidden@s uk-box-shadow-small" style="padding: 0 15px;">
+<div>
+    <nav class="uk-navbar uk-hidden@m uk-box-shadow-small uk-navbar-transparent" style="padding: 0 15px;">
         <div class="uk-navbar-left">
             <a href="{{ .Site.BaseURL }}">
-                <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="140">
+                <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="150">
             </a>
         </div>
         <div class="uk-navbar-right">
             <a class="uk-navbar-toggle" href="#modal-full" uk-toggle>
-                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="15" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="10" height="2"></rect></svg>
+                <svg width="20" fill="#fff" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="15" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="10" height="2"></rect></svg>
             </a>
         </div>
     </nav>
@@ -80,15 +67,15 @@
             {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
             <li class="uk-parent">
-                <a href="#" class="uk-text-light">{{ .Name }}</a>
+                <a href="#" class="uk-dark">{{ .Name }}</a>
                 <ul class="uk-nav-sub">
                     {{ range .Children }}
-                    <li><a href="{{ .URL | absURL }}" class="uk-text-light">{{ .Name }}</a></li>
+                    <li><a href="{{ .URL | absURL }}" class="uk-dark">{{ .Name }}</a></li>
                     {{ end }}
                 </ul>
             </li>
             {{ else }}
-            <li><a href="{{ .URL | absURL }}" class="uk-text-light">{{ .Name }}</a></li>
+            <li><a href="{{ .URL | absURL }}" class="uk-dark">{{ .Name }}</a></li>
             {{ end }}
             {{ end }}
         </ul>

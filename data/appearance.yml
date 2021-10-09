@@ -1,0 +1,13 @@
+---
+header:
+  top_header_color: ''
+  header_background_color: ''
+  transparent_background: false
+  enable_white_text: false
+  enable_white_text_top: false
+branding:
+  site_title: Karina Crisp
+  logo: https://res.cloudinary.com/hungryram19/image/upload/v1633821179/karina-crisp/exprealty-logo-thrive-group.png
+  dark_logo: 
+  favicon: https://res.cloudinary.com/hungryram19/image/upload/v1633821167/karina-crisp/favicon-exp.png
+  logo_width: 

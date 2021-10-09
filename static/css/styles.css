@@ -254,14 +254,14 @@ ul.uk-navbar-nav>li>a:not(.top-navbar a) {
 }
 
 .mobile__wrapper ul li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 10px 0;
-    color: #eee;
+    color: #000;
     transition: .3s;
 }
 
 div.uk-modal-dialog {
-    background: #19202A;
+    background: #fff;
 }
 
 /* HERO */
@@ -293,11 +293,15 @@ div.hero-text li img {
     }
 
     div.hero-text h1 {
-        font-size: 1.5rem;
+        font-size: 4rem;
     }
 
     div.hero-text p.uk-text-normal {
         font-size: 15px;
+    }
+
+    div.hero-text {
+        padding-bottom: 140px;
     }
 }
 

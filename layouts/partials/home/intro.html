@@ -5,16 +5,16 @@
         <div class="uk-grid-large" uk-grid>
             <div class="uk-width-1-2@s">
                 <div class="uk-card">
-                    <h1 class="title is-1 is-size-3-mobile has-text-black page-title has-text-weight-normal">Finding you the best homes in <span class="accent">Greater Knoxville</span></h1>
-                    <div class="uk-grid uk-grid-small">
-                        <div class="line uk-width-1-6">
-                            <div style="border-top: 1.5px solid #D2B067;margin-top: 35px;"></div>
+                    <h2 class="uk-h1">Finding you the best homes in <span class="accent">Greater Knoxville</span></h2>
+                    <div class="uk-grid">
+                        <div class="line uk-width-1-6@s">
+                            <div style="border-top: 1.5px solid #D2B067;margin-top: 35px; width:100px"></div>
                         </div>
-                        <div class="uk-width-expand content">
-                            <p class="has-text-black">{{ $bio.body_text | markdownify }}</p>
+                        <div class="uk-width-expand@s">
+                            {{ $bio.body_text | markdownify }}
                             <p class="has-text-black is-size-5 mb-6">Let's get started on finding your dream home</p>
                             {{ if $bio.link }}
-                            <a href="{{ $bio.link }}" class="primary-btn">{{ $bio.link_text }}</a>
+                            <a href="{{ $bio.link }}" class="primary-btn accent">{{ $bio.link_text }}</a>
                             {{ end }}
                         </div>
                     </div>
