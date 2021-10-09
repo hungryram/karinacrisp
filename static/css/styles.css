@@ -23,6 +23,10 @@ div.title-line {
     bottom: 30px;
 }
 
+body {
+    overflow: hidden;
+}
+
 /* TYPOGRAPHY */
 
 body h1,
