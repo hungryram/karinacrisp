@@ -1,11 +1,12 @@
 {{ partial "global/head" . }}
-{{ partial "global/navbar" . }}
-<div class="uk-section uk-section-small page__banner uk-card" style="background: #dbdbdb">
-    <div class="page__slider" uk-scrollspy="cls:uk-animation-fade"></div>
-    <div class="uk-container">
-        <div class="page__banner__inner">
-            <h1 class="h1-title">{{ .Title }}</h1>
-            {{ partial "templates/breadcrumbs" . }}
+<div class="uk-position-top">
+    {{ partial "global/navbar" . }}
+
+</div>
+<div class="uk-section uk-section-large" style="background: linear-gradient(rgba(17,17,17, 0.5),rgba(17,17,17, 0.5)),url(https://www.karinacrisp.com/uploads/contactpage.jpg) no-repeat center; background-size:cover">
+    <div class="uk-container uk-inline uk-flex uk-flex-center">
+        <div class="uk-position-center">
+            <h1 class="uk-white">{{ .Title }}</h1>
         </div>
     </div>
 </div>

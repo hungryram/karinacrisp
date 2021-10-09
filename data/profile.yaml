@@ -1,31 +1,29 @@
 ---
-primary_company_name: Karina Crisp - The Thrive Group / Brokered by eXp Realty, LLC
-primary_contact:
-  full_name: Karina Crisp
-  title: Realtor
-  mobile_phone: 865-839-8418
-  email: karina@karinacrisp.com
-  license_type: BRE License
-  license_number: '01926616'
-  phone: 888-519-5113
-social_accounts:
+company_name: Karina Crisp - The Thrive Group / Brokered by eXp Realty, LLC
+social_media:
   instagram: https://www.instagram.com/karina_crisp
+  twitter: 
   facebook: https://www.facebook.com/karinacrisprealestate
-  youtube: ''
-  twitter: ''
-  linkedin: http://www.linkedin.com/in/karinacrisp
   pinterest: ''
-  zillow: ''
-  redfin: ''
-  realtor: ''
-  trulia: ''
-  reddit: ''
+  yelp: ''
+  linkedin: http://www.linkedin.com/in/karinacrisp
+  tiktok: ''
+contact_information:
+  license: 'BRE #01926616'
+  phone: 888-519-5113
+  name: Karina Crisp
+  cell: 865-839-8418
+  address: 223 W Broadway Ave
+  email: karina@karinacrisp.com
+  license: 'BRE #5411555'
+  city: Maryville
+  state: TN
+  zip_code: "37801"
 search_engine_optimization:
   title_tag: Karina Crisp - The Thrive Group/Brokered by eXp Realty, LLC
-  meta_description: Search homes in Greater Knoxville, Tennessee. Contact Karina Crisp
+  meta_description:  Search homes in Greater Knoxville, Tennessee. Contact Karina Crisp
     at The Thrive Group / Brokered by eXp Realty, LLC to find your home
-location_information:
-  address: 223 W Broadway Ave
-  city: Maryville
-  state: Tennessee
-  zip_code: 37801
+  twitter_card:
+    twitter_username: ''
+  facebook:
+    app_id: ''

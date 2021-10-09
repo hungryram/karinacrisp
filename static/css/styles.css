@@ -9,6 +9,20 @@
   }
 }
 
+hr.uk-divider-small::after {
+    margin: 40px 0;
+    border-top: 1px solid #D2B067;
+}
+
+div.title-line {
+    width: 1px;
+    height: 100px;
+    background: #dddddf;
+    margin: 0 auto;
+    position: relative;
+    bottom: 30px;
+}
+
 /* TYPOGRAPHY */
 
 body h1,
@@ -28,11 +42,35 @@ body .uk-heading-large,
 body .uk-heading-medium, 
 body .uk-heading-small, 
 body .uk-heading-xlarge {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+div.content a {
+    color: #D2B067;
+}
+
+a.primary-btn:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #D2B067;
+    bottom: 0;
+    transition: width .2s ease;
+}
+
+a.primary-btn:hover {
+    transition: width .2s ease;
+    color: #ccc;
+}
+
+a.primary-btn:hover:before {
+    transition: width .2s ease;
+    width: 100px;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #777;
     font-size: 15px;
     line-height: 27px;
@@ -84,7 +122,6 @@ h1.h1-title {
 
 a.uk-button-secondary {
     background: transparent;
-    padding: 4px 39px;
     color: #000;
     display: inline-block;
     font-size: 14px;
@@ -92,9 +129,7 @@ a.uk-button-secondary {
     -moz-transition: ease-out 0.6s;
     transition: ease-out 0.6s;
     outline: none;
-    border: 1px solid #2689D6;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    border: 1px solid #000;
 }
 
 .uk-text-medium {
@@ -102,7 +137,7 @@ a.uk-button-secondary {
 }
 
 .accent {
-    color: #2689D6;
+    color: #D2B067;
 }
 
 .uk-white {
@@ -111,18 +146,14 @@ a.uk-button-secondary {
 
 button.uk-button-primary,
 a.uk-button-primary {
-    background: #2689D6;
-    padding: 5px 40px;
+    background: #000;
     color: #FFF;
-    display: inline-block;
     font-size: 14px;
     -webkit-transition: ease-out 0.6s;
     -moz-transition: ease-out 0.6s;
     transition: ease-out 0.6s;
     outline: none;
     border: none;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.2);
 }
 
 .slide_right:hover {
@@ -326,16 +357,25 @@ div.hero-text li img {
 
 /* CONTACT */
 
-.contact__icons a {
-    transition: .3s;
-    color: #222;
+
+div.uk-box {
+    background: rgb(0 0 0 / 80%);
 }
 
-.contact__icons a:hover {
-    color: #2689D6;
+div.uk-box a {
+    transition: .3s;
+    color: #fff;
+}
+
+div.uk-box a:hover {
+    text-decoration: none;
+    color: #D2B067;
     transition: .3s;
 }
 
+div.uk-box svg {
+    color: #000;
+}
 /* SINGLE SERVICE PAGE */
 
 div.box-top {
@@ -380,17 +420,24 @@ ul.service__list__faq li a:hover {
 /* FOOTER */
 
 footer.footer {
-    background: #19202A;
-}
-
-footer.footer h6,
-footer.footer a {
-    color: #fff;
+    background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,1)),url(/uploads/footerbg.jpg) no-repeat center;
+    background-size: cover;
 }
 
 div.footer-credit p,
 div.footer-credit ul li a {
     font-size: 12px;
+}
+
+footer.footer a {
+    transition: .3s;
+    color: inherit;
+}
+
+footer.footer a:hover {
+    color: #D2B067;
+    transition: .3s;
+    text-decoration: none;
 }
 
 .contact-detail span.uk-icon-button {
