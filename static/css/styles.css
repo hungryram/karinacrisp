@@ -24,7 +24,7 @@ div.title-line {
 }
 
 body {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 /* TYPOGRAPHY */
