@@ -1,6 +1,12 @@
-{{partial "global/head.html" . }}
-{{partial "home/main.html" . }}
-{{partial "home/about.html" . }}
-{{partial "home/featured.html" . }}
-{{partial "home/listings.html" . }}
-{{partial "global/footer.html" . }}
+{{ partial "global/head" . }}
+<div class="uk-position-top full-nav-wrapper" style="z-index: 1;">
+    {{ partial "global/navbar" . }}
+</div>
+<main>
+{{ partial "home/hero" . }}
+{{ partial "home/banner" . }}
+
+
+{{ partial "home/faq" . }}
+</main>
+{{ partial "global/footer" . }}
