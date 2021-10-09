@@ -24,8 +24,9 @@ div.title-line {
 }
 
 body {
-    overflow-y: hidden;
-}
+    overflow-x: hidden;
+    overflow-y: scroll;
+    }
 
 /* TYPOGRAPHY */
 
