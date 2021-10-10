@@ -43,3 +43,7 @@ weight = 2
 name = "My Account"
 url = "https://karinacrisp.idxhome.com/organizer/login/147919"
 weight = 4
+[[menu.main]]
+name = "Contact"
+url = "https://www.karinacrisp.com/contact"
+weight = 4
