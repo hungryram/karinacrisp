@@ -6,7 +6,7 @@ logo_and_title:
 home_slideshow:
   slideshow:
   - heading: Summit Realty
-    image: "/uploads/farmhousekitchen.jpg"
+    image: "https://res.cloudinary.com/hungryram19/image/upload/v1633826907/karina-crisp/farmhousekitchen1.jpg"
     link_text: View Featured Homes
     link: "/"
     subtitle: The Thrive Group / Brokered by eXp Realty, LLC
@@ -14,7 +14,7 @@ home_slideshow:
   - subtitle: The Thrive Group / Brokered by eXp Realty, LLC
     heading: Summit Realty
     hero_body: ''
-    image: "/uploads/modernfarmhouse.jpg"
+    image: "https://res.cloudinary.com/hungryram19/image/upload/v1633826828/karina-crisp/modernfarmhouse2.jpg"
     link_text: ''
     link: ''
   - subtitle: The Thrive Group / Brokered by eXp Realty, LLC
