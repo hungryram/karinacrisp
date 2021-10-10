@@ -23,11 +23,6 @@ div.title-line {
     bottom: 30px;
 }
 
-body {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    }
-
 /* TYPOGRAPHY */
 
 body h1,
@@ -126,7 +121,7 @@ h1.h1-title {
 }
 
 a.uk-button-secondary {
-    background: transparent;
+    background: white;
     color: #000;
     display: inline-block;
     font-size: 14px;

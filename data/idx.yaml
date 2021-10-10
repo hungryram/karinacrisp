@@ -1,4 +1,7 @@
 ---
-ihomefinder_client_id: 147919
+ihf_client_id: 147919
 enable_idx: true
-subdomain: karinacrisp
+incomplete_subdomain: search
+complete_subdomain: ''
+enable_google_recaptcha: true
+google_site_key: 6LcdfpgUAAAAACVR_RRPmjr0AR-qXQcBGdopY1MS
