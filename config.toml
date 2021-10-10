@@ -1,4 +1,4 @@
-baseURL = "https://october2021--karinacrisp.netlify.app/"
+baseURL = "https://www.karinacrisp.com/"
 languageCode = "en-us"
 summaryLength = 30
 disableKinds = ["taxonomy", "taxonomyTerm"]
