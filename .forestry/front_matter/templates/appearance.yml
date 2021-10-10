@@ -83,5 +83,3 @@ fields:
     description: Upload important documents and policies that will display in the
       footer of the website.
   label: Footer
-pages:
-- data/appearance.yml
