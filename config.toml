@@ -11,24 +11,17 @@ weight = 1
 name = "Search Homes"
 weight = 2
 [[menu.main]]
-name = "Basic Search"
-parent = "Search Homes"
-url = "https://karinacrisp.idxhome.com/homesearch/147919"
-weight = 1
-[[menu.main]]
-name = "Advanced Search"
-parent = "Search Homes"
-url = "https://karinacrisp.idxhome.com/listing/search/advanced/147919/74?location=Enter+cities+or+zip+codes&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
-weight = 2
-[[menu.main]]
-name = "Featured Listings"
-parent = "Search Homes"
-url = "http://karinacrisp.idxhome.com/featured/147919"
-weight = 3
-[[menu.main]]
 name = "Buyers & Sellers"
 url = "https://karinacrisp.idxhome.com/organizer/login/147919"
 weight = 3
+[[menu.main]]
+name = "My Account"
+url = "https://karinacrisp.idxhome.com/organizer/login/147919"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url = "https://www.karinacrisp.com/contact"
+weight = 5
 [[menu.main]]
 name = "Home Value Request"
 parent = "Buyers & Sellers"
@@ -40,10 +33,17 @@ parent = "Buyers & Sellers"
 url = "https://karinacrisp.idxhome.com/mortcalc/147919"
 weight = 2
 [[menu.main]]
-name = "My Account"
-url = "https://karinacrisp.idxhome.com/organizer/login/147919"
-weight = 4
+name = "Featured Listings"
+parent = "Search Homes"
+url = "https://karinacrisp.idxhome.com/featured/147919"
+weight = 3
 [[menu.main]]
-name = "Contact"
-url = "https://www.karinacrisp.com/contact"
-weight = 4
+name = "Basic Search"
+parent = "Search Homes"
+url = "https://karinacrisp.idxhome.com/homesearch/147919"
+weight = 1
+[[menu.main]]
+name = "Advanced Search"
+parent = "Search Homes"
+url = "https://karinacrisp.idxhome.com/listing/search/advanced/147919/74?location=Enter+cities+or+zip+codes&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
+weight = 2
