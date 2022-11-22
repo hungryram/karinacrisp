@@ -37,4 +37,4 @@ Contact Us
 
 If you wish to report an accessibility issue, have any questions or need assistance, please contact **www.karinacrisp.com** Customer Support as follows:   
   
-Email: karina@karinacrisp.com
+Email: karina@karinabaymiller.com
