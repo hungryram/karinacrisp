@@ -12,7 +12,6 @@
                         </div>
                         <div class="uk-width-expand@s">
                             {{ $bio.body_text | markdownify }}
-                            <p class="has-text-black is-size-5 mb-6">Let's get started on finding your dream home</p>
                             {{ if $bio.link }}
                             <a href="{{ $bio.link }}" class="primary-btn accent">{{ $bio.link_text }}</a>
                             {{ end }}
