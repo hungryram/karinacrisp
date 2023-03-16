@@ -7,7 +7,7 @@ header:
   enable_white_text_top: false
 branding:
   site_title: Karina Baymiller
-  logo: https://res.cloudinary.com/hungryram19/image/upload/v1633821179/karina-crisp/exprealty-logo-thrive-group.png
+  logo: /uploads/exp.png
   dark_logo: 
   favicon: https://res.cloudinary.com/hungryram19/image/upload/v1633821167/karina-crisp/favicon-exp.png
-  logo_width: 200
+  logo_width: 150
